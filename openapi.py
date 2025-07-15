@@ -2,7 +2,7 @@ import asyncio
 from typing import Optional
 from semantic_kernel.agents import AzureAIAgent, AzureAIAgentSettings, AzureAIAgentThread
 from azure.identity.aio import DefaultAzureCredential
-from azure.ai.agents.models import OpenApiTool, OpenApiAnonymousAuthDetails, ToolDefinition, ToolResources, OpenApiToolDefinition
+from azure.ai.agents.models import OpenApiTool, OpenApiAnonymousAuthDetails, ToolDefinition, ToolResources
 import json
 
 
